@@ -7,8 +7,11 @@ body {
 }
 
 h1 {
-    color: #ffcc00;
     text-align: center;
+}
+
+section {
+    margin: 20px;
 }
 
 header {
@@ -37,15 +40,14 @@ a:hover {
 
 .flexcontainer {
     display: flex;
+    gap:auto;
 }
 .flex1 {
     flex: 1;
-    padding: 20px;
     justify-content: center;
 }
 .flex2 {
     flex: 2;
-    padding: 20px;
 }
 
 .london {
@@ -59,9 +61,18 @@ a:hover {
     grid-template-columns: auto auto auto;
     gap: 30px;
 }
+.gaming {
+    text-align: center;
+}
+
+.gaming img {
+    max-width: 100%;
+    height: auto;
+}
 .grid {
     display:grid;
     gap:auto;
+    place-items: center;
 }
 
 .whitebox {
@@ -75,5 +86,9 @@ div.flexcontainer img {
     max-width: 100%;
     height: auto;
     display: block;
-    margin: 0 auto;
+}
+
+.display {
+    display: grid;
+    place-items: center;
 }
