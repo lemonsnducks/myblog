@@ -19,3 +19,6 @@ Release 0.3
   - Where Dreams Take Flight
   - Former Kowloon-Canton Railway Clock Tower
   - Taihedian
+
+Release 0.4
+ - Fixed the problem where the Taihedian image cannot be presented due to a relocation of an image
